@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+nav .logo{
+    width:30% ;
+    float:left ;
+}
+.logo img{
+    width: 50px;
+}
+.home-section{
+    background-color: black;
+    
+}
+nav ul{
+    margin-top: 10px;
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+ul li a{
+    padding: 30px;
+    text-decoration: none;
+}
+.home{
+    color: #f50;
+}
+.about{
+    color: dodgerblue;
+}
+.contact{
+    color: white;
+}
+.faq{
+    color: greenyellow;
+}
+.clear{
+    clear: both;
+}
+.landing-page{
+    background-image: url(../img/sailboat.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.landing-page .content{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content h1{
+letter-spacing: 2px;
+font-weight: 800;
+padding:20px 0 ;
+}
+.content p{
+    font-size:30px ;
+    font-weight: 400;
+    padding: 10px 0;
+    
+}
+.content button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.our-team{
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+.title{
+    color: greenyellow;
+    
+}
+.char{
+    width:25%;
+    float: left;
+}
+.char img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.char .one{
+    outline: #f50 4px solid;
+}
+.char .two{
+    outline: dodgerblue 4px solid;
+}
+.char .three{
+    outline: white 4px solid;
+}
+.char .four{
+    outline:greenyellow 4px solid;
+}
+.char h2{
+    padding: 10px 0 ;
+    color: white;
+}
+.offer{
+    width: 33.33333333333333%;
+    float: left;
+    padding: 20px;
+}
+.offer .image-1{
+    border-left: greenyellow 20px solid;
+}
+.offer .image-2{
+    border-left: dodgerblue 20px solid;
+}
+.offer .image-3{
+    border-left: #f50 20px solid;
+}
+.offer .image-4{
+    border-left: #f50 20px solid;
+}
+.offer .image-5{
+    border-left: greenyellow 20px solid;
+}
+.offer .image-6{
+    border-left: dodgerblue 20px solid;
+}
+p.home{
+    margin: 30px 0 20px 0 ;
+}
+@media (min-width: 768px) { 
+    .container{
+       width:750px ;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .container{
+       width:970px
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .container{
+      width: 1170px; 
+    }
+}
